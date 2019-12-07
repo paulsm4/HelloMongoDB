@@ -37,7 +37,7 @@ mongodb-org-tools/bionic,now 4.2.0 amd64 [installed,automatic]
 
 3. Start/verify service:
    - service mongod start => OK
-     ls -l /var/logo/mongodb/mongod.log
+     ls -l /var/log/mongodb/mongod.log
 -rw------- 1 mongodb mongodb 6832 Oct 17 13:27 mongod.log => OK
      less /var/log/mongodb/mongod.log
 2019-10-17T13:27:40.298-0700 I  CONTROL  [main] Automatically disabling TLS 1.0, to force-enable TLS 1.0 specify --sslDisabledProtocols 'none'
@@ -306,7 +306,7 @@ System.Buffers.4.4.0         "System.Buffers" version="4.4.0"
               A single MongoDB server typically has multiple databases.
   - Document: a record in a MongoDB collection and the basic unit of data in MongoDB. 
               Documents are analogous to JSON objects but exist in the database in a more type-rich format known as BSON.
-  - Field: a name-value pair in a document; nalogous to columns in relational databases. 
+  - Field: a name-value pair in a document; analogous to columns in relational databases. 
            A document has zero or more fields.
   - Field Path: path to a field in the document. 
                 To specify a field path, use a string that prefixes the field name with a dollar sign ($).
